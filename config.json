@@ -1,7 +1,0 @@
-{
-  "MONGODB_URI": "mongodb://127.0.0.1:27017/devsdigest",
-  "SERVER": {
-    "URI": "https://devdigestapi.localtunnel.me/",
-    "PORT": "5000"
-  }
-}

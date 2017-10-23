@@ -1,7 +1,6 @@
 {
   "MONGODB_URI": "process.env.MONGODB_URI",
   "SERVER": {
-    "URI": "process.env.SERVER_URI",
     "PORT": "process.env.PORT"
   }
 }
