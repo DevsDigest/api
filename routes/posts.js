@@ -1,4 +1,4 @@
-require('../database');
+require('../infra/database');
 const Post = require('../model/post');
 
 function getLimit(limit = 0) {

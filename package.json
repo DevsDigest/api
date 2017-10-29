@@ -4,8 +4,6 @@
   "description": "API for Devs Digest bot on Messenger",
   "main": "index.js",
   "scripts": {
-    "postinstall": "cp -Ri config.json.example config.json",
-    "start": "node index",
     "localtunnel": "lt --port 5000 --subdomain devdigestapi",
     "dev": "nodemon --watch './'",
     "server": "npm run localtunnel",
@@ -26,6 +24,7 @@
   "dependencies": {
     "body-parser": "1.18.2",
     "express": "4.16.2",
+    "joi": "13.0.1",
     "mongoose": "4.12.4",
     "request": "2.83.0"
   },
