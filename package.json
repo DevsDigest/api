@@ -4,6 +4,7 @@
   "description": "API for Devs Digest bot on Messenger",
   "main": "index.js",
   "scripts": {
+    "start": "node index",
     "localtunnel": "lt --port 5000 --subdomain devdigestapi",
     "dev": "nodemon --watch './'",
     "server": "npm run localtunnel",
