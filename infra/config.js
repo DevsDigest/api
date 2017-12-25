@@ -1,9 +1,11 @@
 'use strict';
 
+require('dotenv').load();
+
 const joi = require('joi');
 const schema = joi.object({
-  MONGODB_URI: joi.string().default('mongodb://127.0.0.1:27017/devsdigest'),
-  PORT: joi.number().default(5000)
+  MONGODB_URI: joi.string(),
+  PORT: joi.number()
 }).unknown().required();
 
 const { error, value: envVars } = joi.validate(process.env, schema);
@@ -15,6 +17,6 @@ const config = {
   server: {
     port: envVars.PORT
   }
-}
+};
 
 module.exports = config;
