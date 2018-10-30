@@ -23,15 +23,15 @@
   "author": "Tiago Celestino",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "1.18.2",
-    "dotenv": "4.0.0",
-    "express": "4.16.2",
-    "joi": "13.0.1",
-    "mongoose": "4.12.4",
-    "request": "2.83.0"
+    "body-parser": "1.18.3",
+    "dotenv": "6.1.0",
+    "express": "4.16.4",
+    "joi": "14.0.2",
+    "mongoose": "5.3.7",
+    "request": "2.88.0"
   },
   "devDependencies": {
-    "localtunnel": "1.8.3",
-    "nodemon": "1.12.1"
+    "localtunnel": "1.9.1",
+    "nodemon": "1.18.5"
   }
 }
